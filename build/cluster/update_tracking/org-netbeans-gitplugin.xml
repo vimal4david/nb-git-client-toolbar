@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.gitplugin">
-    <module_version install_time="1539071315112" last="true" origin="installer" specification_version="1.0">
-        <file crc="3745224838" name="config/Modules/org-netbeans-gitplugin.xml"/>
-        <file crc="3729649264" name="modules/org-netbeans-gitplugin.jar"/>
-    </module_version>
-</module>

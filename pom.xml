@@ -36,7 +36,7 @@
                     <author>Vimal David Vincent Devaraj (vimal4david@hotmail.com)</author>
                     <homePageUrl>https://github.com/vimal4david/netbeans-git-plugin.git</homePageUrl>
                     <!--<keystore>nbproject/private/keystore</keystore>-->
-                    <!--<licenseName>Apache 2.0</licenseName>-->
+                    <licenseName>Apache 2.0</licenseName>
                 </configuration>
             </plugin>
             <plugin>

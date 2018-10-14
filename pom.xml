@@ -25,9 +25,8 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>nbm-maven-plugin</artifactId>
-                <!--Version need to be updated-->
-                <!--<version>4.1</version>-->
-                <version>3.13</version>
+                <!--<version>3.11.1</version>-->
+                <version>3.14</version>
                 <extensions>true</extensions>
                 <configuration>
                     <useOSGiDependencies>true</useOSGiDependencies>
@@ -66,8 +65,13 @@
     <repositories>
         <repository>
             <id>netbeans</id>
-            <name>Repository hosting NetBeans modules</name>
-            <url>http://bits.netbeans.org/nexus/content/groups/netbeans</url>
+            <!--<name>Repository hosting NetBeans modules</name>-->
+            <!--<url>http://bits.netbeans.org/nexus/content/groups/netbeans</url>-->
+            <name>Repository hosting netbeans.org api artifacts</name>
+            <url>http://bits.netbeans.org/maven2/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>

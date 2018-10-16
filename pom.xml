@@ -15,27 +15,24 @@
     <build>
         <plugins>
             <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>nbm-maven-plugin</artifactId>
+                <version>3.13</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <useOSGiDependencies>true</useOSGiDependencies>
+                    <licenseFile>LICENSE</licenseFile>
+                    <author>Vimal David Vincent Devaraj (vimal4david@hotmail.com)</author>
+                    <homePageUrl>https://github.com/vimal4david/netbeans-git-plugin.git</homePageUrl>
+                    <licenseName>Apache 2.0</licenseName>
+                </configuration>
+            </plugin>
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.0</version>
                 <configuration>
                     <release>11</release>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>nbm-maven-plugin</artifactId>
-                <!--<version>3.11.1</version>-->
-                <version>3.14</version>
-                <extensions>true</extensions>
-                <configuration>
-                    <useOSGiDependencies>true</useOSGiDependencies>
-                    <codeNameBase>plugin.toolbar</codeNameBase>
-                    <licenseFile>LICENSE</licenseFile>
-                    <author>Vimal David Vincent Devaraj (vimal4david@hotmail.com)</author>
-                    <homePageUrl>https://github.com/vimal4david/netbeans-git-plugin.git</homePageUrl>
-                    <!--<keystore>nbproject/private/keystore</keystore>-->
-                    <licenseName>Apache 2.0</licenseName>
                 </configuration>
             </plugin>
             <plugin>

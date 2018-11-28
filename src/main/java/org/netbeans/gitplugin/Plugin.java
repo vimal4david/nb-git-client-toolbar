@@ -7,5 +7,6 @@
 package org.netbeans.gitplugin;
 
 public class Plugin {
+
     
 }
